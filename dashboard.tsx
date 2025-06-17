@@ -218,7 +218,7 @@ export default function Dashboard() {
           <div className="flex items-center space-x-2">
             <Hexagon className="h-8 w-8 text-cyan-500" />
             <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              NEXUS OS
+              KENZY OS
             </span>
           </div>
 
@@ -291,7 +291,7 @@ export default function Dashboard() {
                 </nav>
 
                 <div className="mt-8 pt-6 border-t border-slate-700/50">
-                  <div className="text-xs text-slate-500 mb-2 font-mono">SYSTEM STATUS</div>
+                  <div className="text-xs text-slate-500 mb-2 font-mono">SYSTEM FEELING</div>
                   <div className="space-y-3">
                     <StatusItem label="Core Systems" value={systemStatus} color="cyan" />
                     <StatusItem label="Security" value={securityLevel} color="green" />
@@ -311,7 +311,7 @@ export default function Dashboard() {
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-slate-100 flex items-center">
                       <Activity className="mr-2 h-5 w-5 text-cyan-500" />
-                      System Overview
+                      System Summary
                     </CardTitle>
                     <div className="flex items-center space-x-2">
                       <Badge variant="outline" className="bg-slate-800/50 text-cyan-400 border-cyan-500/50 text-xs">
